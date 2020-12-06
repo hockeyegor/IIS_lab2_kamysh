@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<data>
+    <properties>
+        <property name="Овощи"/>
+        <property name="Свинина"/>
+        <property name="Фрукты"/>
+        <property name="Сыр"/>
+        <property name="Рыба"/>
+        <property name="Кофе"/>
+        <property name="Сладости"/>
+		<property name="Рис"/>
+		<property name="Чай"/>
+		<property name="Говядина"/>
+    </properties>
+    <classSet name="Кухни разных народов народов">
+        <class name="Азиатская">
+            <vector name="Турецкая">
+				<property name="Фрукты"/>
+                <property name="Кофе"/>
+                <property name="Сладости"/>
+            </vector>
+			<vector name="Азербайджанская">
+				<property name="Фрукты"/>
+                <property name="Сладости"/>
+                <property name="Говядина"/>
+            </vector>
+        </class>
+		<class name="Европейская">
+            <vector name="Белорусская">
+                <property name="Овощи"/>
+                <property name="Свинина"/>
+                <property name="Фрукты"/>
+				<property name="Сыр"/>
+            </vector>
+            <vector name="Французская">
+				<property name="Овощи"/>
+				<property name="Сыр"/>
+				<property name="Рыба"/>
+            </vector>
+        </class>
+        <class name="Восточная">
+            <vector name="Японская">
+				<property name="Овощи"/>
+                <property name="Рыба"/>
+                <property name="Рис"/>
+            </vector>
+            <vector name="Китайская">
+				<property name="Овощи"/>
+                <property name="Свинина"/>
+                <property name="Рыба"/>
+                <property name="Чай"/>
+            </vector>
+        </class>
+    </classSet>
+</data>
